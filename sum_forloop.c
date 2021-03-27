@@ -12,6 +12,12 @@ int sum(int arr[], int n) {
     int i;
     for (i=0;i<n;i++){
         s += arr[i];
+    printf("Enter size of array ");
+    scanf("%d",&n);
+    for(i=0;i<n;i++)
+    {
+        printf("%dth element ",i+1);
+        scanf("%d",&arr[i]);
     }
     return s;
 }
