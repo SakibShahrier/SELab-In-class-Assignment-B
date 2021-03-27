@@ -13,7 +13,8 @@ int main() {
     // take array size input
     for(i=0;i<n;i++)
     {
-        // take array elements input
+        // First Update
+	scanf("%d", &arr[i]);
     }
 
     printf("sum of the elements of this array is %d", sum(arr, n));
